@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Grid styles */
+
+/* banner styles */
+.banner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(66, 200, 245);
+    padding: 20px;
+
+}
+
+.logo {
+    font-style: italic;
+}
+
+.navbar {
+    justify-self: end;
+}
+
+/* page content using cards */
+.content-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-column-gap: 20px;
+
+}
+
+.card {
+    border: 1px solid rgb(12, 34, 56);
+    border-radius: 20px;
+    padding: 20px;
+    /* overflow: hidden; */
+}
+
+/* format content inside cards correctly */
+.card > img {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.card > p {
+    padding: 10px;
+}
