@@ -9,11 +9,12 @@
 
 <h1>Testing POST array</h1>
 
+    <!-- PHP code that gets text entered into form in previous webpage and does something with it -->
     <?php
-        // retrieve name from POST array
+        // retrieve first name from POST array (i.e. what user typed into text box in previous page)
         $display_name = $_POST['first_name'];
 
-        // display name
+        // display first name in HTML page
         echo $display_name;
 
     ?>
