@@ -7,7 +7,7 @@
 </head>
 <body>
     <!-- HTML form tag creates section of page where input can be entered -->
-    <form action="hello.php" method="post">
+    <form action="hello.php" method="POST">
         <!-- action attribute - points to page that is loaded when submit button is pressed
             method attribute - says to store info in POST array when submit button is pressed.
             Note that method isn't automatically added when using autocomplete in VS Code
