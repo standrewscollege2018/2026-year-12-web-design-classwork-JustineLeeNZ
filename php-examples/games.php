@@ -16,7 +16,6 @@
     $genre = $_GET['genre_id'];
 
     // make and run query
-    // query will return only ONE record i.e. Hollow Knight
     $game_sql = "SELECT * FROM game WHERE genre_id=" . $genre;
     $game_qry = mysqli_query($db_connect, $game_sql);
     $game_aa = mysqli_fetch_assoc($game_qry);
